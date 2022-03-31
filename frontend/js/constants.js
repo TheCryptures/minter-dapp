@@ -1,4 +1,4 @@
-const contractAddress = "0xDf13E80d23A4A04169519E5F4b9e2a68B96c0d34"; //Replace with your own contract address
+const contractAddress = "0x299Ce07C143B6442d5c8963fD30e2dBc1EaB7b4f"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Cryptures NFT Project!";
