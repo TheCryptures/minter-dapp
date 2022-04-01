@@ -7,14 +7,14 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "TheCryptures";
-const description = "Uniqe 1111 Cryptures NFT's to represent you in the Metaverse.";
+const namePrefix = "TheCryptures vol.1";
+const description = "Uniqe 8888 Cryptures NFTs to represent you in Metaverse.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 1111,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
@@ -51,12 +51,12 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'TheCryptures';
-const CONTRACT_SYMBOL = 'TC';
+const CONTRACT_SYMBOL = 'TheC';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x2a8931cCd2d31889305fBC47aA9634fED1834ee6';
 const TREASURY_ADDRESS = '0xB84297f310Ea26da1a84E8eac554AE761516A1CB';
-const MAX_SUPPLY = 8888; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 1111; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
