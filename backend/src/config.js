@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "TheCryptures vol.1";
-const description = "Uniqe 8888 Cryptures NFTs to represent you in Metaverse.";
+const description = "TheCryptures is a collection of 8888 unique NFTs that lives outside our solar system. Their planet, Crypturion, is habitated by 8th spiecies. Due to major technology changes on Earth they have decided to send 1111 of their best units. Their mission is to help humans face incoming events. .";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -77,7 +77,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which crypture chooses You?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeibue5mnkdchq4cclsfbb6k72cmtn7d7xgh2h3kitpkvphktqtazwa"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeigd345cjwqg44az6xyvlzocuqo4ayibd6lbkjnirr4pqi3w6noqre"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
