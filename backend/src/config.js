@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "TheCryptures vol.1";
-const description = "TheCryptures is a collection of 8888 unique NFTs that lives outside our solar system. Their planet, Crypturion, is habitated by 8th spiecies. Due to major technology changes on Earth they have decided to send 1111 of their best units. Their mission is to help humans face incoming events. .";
+const description = "TheCryptures is a collection of 8888 unique NFTs that lives outside our solar system. Their planet, Crypturion, is habitated by 8 spiecies. Due to major technology changes on Earth they have decided to send 1111 of their best units. Their mission is to help humans face incoming events.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
